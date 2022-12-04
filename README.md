@@ -8,6 +8,7 @@
 6. npm install react-hook-form
 7. npm install firebase
 8. npm install react-hook-form
+9. npm install react-icons --save
 
 
 

@@ -20,6 +20,7 @@ import Used from '../../../usedProducts/Used';
 import UsedHome from '../../../usedProducts/UsedPages/UsedHome/UsedHome';
 import Home from '../../Pages/Home/Home';
 import Login from '../../Pages/Login/Login';
+import Signup from '../../Pages/Signup/Signup';
 import Main from '../Main/Main';
 
 const Route = () => {
@@ -39,6 +40,10 @@ const Route = () => {
 					{
 						path: '/login',
 						element: <Login></Login>,
+					},
+					{
+						path: '/signup',
+						element: <Signup></Signup>,
 					},
 				],
 			},

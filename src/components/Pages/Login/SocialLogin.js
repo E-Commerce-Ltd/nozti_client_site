@@ -5,11 +5,11 @@ import { BsTwitter, BsFacebook, BsGithub } from 'react-icons/bs';
 const SocialLogin = () => {
     return (
 			<div>
-				<h1>Social Media Login</h1>
+				<h1 className='text-blue-600 my-5 font-serif underline text-2xl'>Social Media Login</h1>
 				<button className='btn btn-outline border-0 w-full my-4 shadow-2xl'><span className='mr-5'><FcGoogle></FcGoogle></span> Google</button>
-				<button className='btn btn-outline border-0 w-full my-4 shadow-2xl'><span className='mr-5'><BsTwitter></BsTwitter></span> Twitter</button>
-				<button className='btn btn-outline border-0 w-full my-4 shadow-2xl'><span className='mr-5'><BsFacebook></BsFacebook></span> Facebook</button>
-				<button className='btn btn-outline border-0 w-full my-4 shadow-2xl'><span className='mr-5'><BsGithub></BsGithub></span> Github </button>
+				<button className='btn btn-outline border-0 w-full my-4 shadow-2xl hidden'><span className='mr-5'><BsTwitter></BsTwitter></span> Twitter</button>
+				<button className='btn btn-outline border-0 w-full my-4 shadow-2xl hidden'><span className='mr-5'><BsFacebook></BsFacebook></span> Facebook</button>
+				<button className='btn btn-outline border-0 w-full my-4 shadow-2xl hidden'><span className='mr-5'><BsGithub></BsGithub></span> Github </button>
 			</div>
 		);
 };
